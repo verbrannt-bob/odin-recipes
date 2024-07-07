@@ -1,0 +1,62 @@
+body { font-family: 'Times New Roman', Times, serif;}
+h1 { font-size: 50px;}
+h2 { font-size: 30px;}
+h3 { font-size: 25px;}
+p, li {font-size: 20px;}
+ul {
+    display: inline-block;
+    list-style-type: square;
+}
+
+body.main{ 
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+}
+
+div { text-align: center;}
+
+
+.main h1 { color: rgb(206, 206, 206);}
+
+a:link { color: rgb(168, 168, 168);}
+a:visited { color: rgb(128, 128, 128)}
+
+.main li {
+    font-size: 25px;
+    color: grey;
+    list-style-type: none;
+}
+
+
+body.guac { background-color: rgb(62, 73, 22); }
+
+#guac-pic {
+    height: 512px;
+    width: 547px;
+    object-fit: cover;
+    object-position: 0%;
+}
+
+.guac h1 { color: rgb(243, 245, 233);}
+
+.guac h2, .guac h3 { color: rgb(219, 203, 155);}
+
+.guac p, .guac li { color: rgb(170, 149, 86);}
+
+
+body.lasagna { background-color: rgb(139, 66, 37); }
+
+.lasagna h1 { color: rgb(241, 235, 200);}
+
+.lasagna h2, .lasagna h3 { color: rgb(228, 193, 88);}
+
+.lasagna p, .lasagna li { color: rgb(189, 182, 125);}
+
+
+body.gallo { background-color: rgb(100, 23, 23); }
+
+.gallo h1 { color: rgb(255, 255, 255);}
+
+.gallo h2, .gallo h3 { color: rgb(216, 231, 197);}
+
+.gallo p, .gallo li { color: rgb(171, 185, 152);}
