@@ -9,7 +9,7 @@ ul {
 }
 
 body.main{ 
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(223, 223, 223);
 }
 
 .main {
@@ -17,27 +17,27 @@ body.main{
     text-align: center;
 }
 
-.main h1 { color: rgb(206, 206, 206);}
+.main h1 { color: rgb(144, 144, 144);}
 
-a:link { color: rgb(168, 168, 168);}
+a:link { color: rgb(255, 255, 255);}
 
-a:visited { color: rgb(128, 128, 128)}
+a:visited { color: rgb(172, 172, 172)}
 
 .main li {
     display: block;
     width: 40rem;
-    height: 10rem;
-    border: 2px solid rgb(53, 52, 52);
+    height: 5rem;
+    border: 2px solid rgb(172, 172, 172);
     font-size: 25px;
     color: grey;
     list-style-type: none;
     text-align: center;
-    padding: 3rem 10rem 3rem 10rem;
+    padding: 1em 3rem;
     margin: 0 auto;
 }
 
 
-body.guac { background-color: rgb(62, 73, 22); }
+.guac { background-color: rgb(62, 73, 22)}; 
 
 #guac-pic {
     height: 512px;
@@ -46,14 +46,16 @@ body.guac { background-color: rgb(62, 73, 22); }
     object-position: 0%;
 }
 
-.guac h1 { color: rgb(243, 245, 233);}
+.guac h1 { 
+    color: rgb(243, 245, 233);
+}
 
 .guac h2, .guac h3 { color: rgb(219, 203, 155);}
 
 .guac p, .guac li { color: rgb(170, 149, 86);}
 
 
-body.lasagna { background-color: rgb(139, 66, 37); }
+.lasagna { background-color: rgb(139, 66, 37); }
 
 .lasagna h1 { color: rgb(241, 235, 200);}
 
@@ -62,10 +64,28 @@ body.lasagna { background-color: rgb(139, 66, 37); }
 .lasagna p, .lasagna li { color: rgb(189, 182, 125);}
 
 
-body.gallo { background-color: rgb(100, 23, 23); }
+.gallo { background-color: rgb(100, 23, 23); }
 
 .gallo h1 { color: rgb(255, 255, 255);}
 
 .gallo h2, .gallo h3 { color: rgb(216, 231, 197);}
 
 .gallo p, .gallo li { color: rgb(171, 185, 152);}
+
+
+.title-cont{
+    display: flex;
+  justify-content: space-between;
+}
+
+.go-home {
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    background-color: rgb(227, 227, 227);
+    color: rgb(95, 95, 95);
+    height: 50px;
+    width: 100px;
+    margin-right: 50px;
+    border: solid rgb(95, 95, 95);
+}
+
